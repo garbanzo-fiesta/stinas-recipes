@@ -1,0 +1,17 @@
+{
+  "name": "parcel-test",
+  "version": "1.0.0",
+  "author": "Georgi Chochov",
+  "license": "MIT",
+  "private": true,
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel --lazy",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.1",
+    "parcel": "^2.0.1"
+  }
+}
